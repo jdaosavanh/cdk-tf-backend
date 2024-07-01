@@ -1,0 +1,7 @@
+{
+  "name": "cdk-tf-backend",
+  "packageManager": "yarn@4.2.2",
+  "workspaces": [
+    "apps/*"
+  ]
+}
