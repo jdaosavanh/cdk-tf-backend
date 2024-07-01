@@ -12,7 +12,6 @@
     "typescript": "5.4.5"
   },
   "dependencies": {
-    "@pepperize/cdk-terraform-state-backend": "^0.1.1029",
     "aws-cdk-lib": "2.144.0",
     "constructs": "^10.0.0"
   }
