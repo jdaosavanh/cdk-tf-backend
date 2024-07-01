@@ -4,10 +4,11 @@ import {Construct} from "constructs";
 import { BaseConfig } from "../config";
 
 export class RemoteBackendStack extends CustomStack {
+
     constructor(scope: Construct, id: string, props: StackProps, config: BaseConfig) {
         super(scope,id,props,config);
-        const s3 = this.s3(config)
-        const remote = this.dynamodb(config)
+        this.s3(config)
+        this.dynamodb(config)
     }
 
     s3(config: BaseConfig) {
